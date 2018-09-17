@@ -3,7 +3,7 @@
     "description": "Carbon Mixing",
     "homepage": "https://github.com/ppelgrims/MoveableFeasts",
     "keywords": ["carbon", "mixing", "moveable", "movable", "feasts", "easter"],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "MIT",
     "authors": [
         { "name": "Pieter Pelgrims" }
