@@ -1,4 +1,6 @@
 [![Build Status](https://travis-ci.org/ppelgrims/moveable-feasts.svg?branch=master)](https://travis-ci.org/ppelgrims/moveable-feasts)
+[![GitHub](https://img.shields.io/github/license/ppelgrims/moveable-feasts.svg)](https://github.com/ppelgrims/moveable-feasts/blob/master/LICENSE)
+[![Packagist](https://img.shields.io/packagist/v/ppelgrims/moveable-feasts.svg)](https://packagist.org/packages/ppelgrims/moveable-feasts)
 
 # Moveable Feasts
 
