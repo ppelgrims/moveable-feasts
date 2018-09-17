@@ -23,12 +23,12 @@ class HolyWeekTest extends \Tests\BaseTest
 
     public function palmSundayDataProvider()
     {
-        return [
-            [2018, 3, 25],
-            [2019, 4, 14],
-            [2020, 4, 5],
-            [2025, 4, 13],
-        ];
+        return array(
+            array(2018, 3, 25),
+            array(2019, 4, 14),
+            array(2020, 4, 5),
+            array(2025, 4, 13)
+        );
     }
 
     /**
@@ -43,12 +43,12 @@ class HolyWeekTest extends \Tests\BaseTest
 
     public function holyMondayDataProvider()
     {
-        return [
-            [2018, 3, 26],
-            [2019, 4, 15],
-            [2020, 4, 6],
-            [2025, 4, 14],
-        ];
+        return array(
+            array(2018, 3, 26),
+            array(2019, 4, 15),
+            array(2020, 4, 6),
+            array(2025, 4, 14)
+        );
     }
 
     /**
@@ -63,12 +63,12 @@ class HolyWeekTest extends \Tests\BaseTest
 
     public function holyTuesdayDataProvider()
     {
-        return [
-            [2018, 3, 27],
-            [2019, 4, 16],
-            [2020, 4, 7],
-            [2025, 4, 15],
-        ];
+        return array(
+            array(2018, 3, 27),
+            array(2019, 4, 16),
+            array(2020, 4, 7),
+            array(2025, 4, 15)
+        );
     }
 
     /**
@@ -83,11 +83,11 @@ class HolyWeekTest extends \Tests\BaseTest
 
     public function holyWednesdayDataProvider()
     {
-        return [
-            [2018, 3, 28],
-            [2019, 4, 17],
-            [2020, 4, 8],
-            [2025, 4, 16],
-        ];
+        return array(
+            array(2018, 3, 28),
+            array(2019, 4, 17),
+            array(2020, 4, 8),
+            array(2025, 4, 16)
+        );
     }
 }

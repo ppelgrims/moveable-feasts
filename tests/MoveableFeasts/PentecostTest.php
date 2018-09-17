@@ -23,12 +23,12 @@ class PentecostTest extends \Tests\BaseTest
 
     public function dataProvider()
     {
-        return [
-            [2018, 5, 20],
-            [2019, 6, 9],
-            [2020, 5, 31],
-            [2025, 6, 8],
-        ];
+        return array(
+            array(2018, 5, 20),
+            array(2019, 6, 9),
+            array(2020, 5, 31),
+            array(2025, 6, 8)
+        );
     }
 
     /**
@@ -43,11 +43,11 @@ class PentecostTest extends \Tests\BaseTest
 
     public function pentecostMondayDataProvider()
     {
-        return [
-            [2018, 5, 21],
-            [2019, 6, 10],
-            [2020, 6, 1],
-            [2025, 6, 9],
-        ];
+        return array(
+            array(2018, 5, 21),
+            array(2019, 6, 10),
+            array(2020, 6, 1),
+            array(2025, 6, 9)
+        );
     }
 }

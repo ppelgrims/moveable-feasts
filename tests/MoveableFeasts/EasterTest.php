@@ -23,12 +23,12 @@ class EasterTest extends \Tests\BaseTest
 
     public function dataProvider()
     {
-        return [
-            [2018, 4, 1],
-            [2019, 4, 21],
-            [2020, 4, 12],
-            [2025, 4, 20],
-        ];
+        return array(
+            array(2018, 4, 1),
+            array(2019, 4, 21),
+            array(2020, 4, 12),
+            array(2025, 4, 20)
+        );
     }
 
     /**
@@ -43,11 +43,11 @@ class EasterTest extends \Tests\BaseTest
 
     public function mondayDataProvider()
     {
-        return [
-            [2018, 4, 2],
-            [2019, 4, 22],
-            [2020, 4, 13],
-            [2025, 4, 21],
-        ];
+        return array(
+            array(2018, 4, 2),
+            array(2019, 4, 22),
+            array(2020, 4, 13),
+            array(2025, 4, 21)
+        );
     }
 }

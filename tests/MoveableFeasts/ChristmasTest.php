@@ -23,12 +23,12 @@ class ChristmasTest extends \Tests\BaseTest
 
     public function dataProvider()
     {
-        return [
-            [2018, 12, 25],
-            [2019, 12, 25],
-            [2020, 12, 25],
-            [2025, 12, 25],
-        ];
+        return array(
+            array(2018, 12, 25),
+            array(2019, 12, 25),
+            array(2020, 12, 25),
+            array(2025, 12, 25)
+        );
     }
 
     /**
@@ -43,11 +43,11 @@ class ChristmasTest extends \Tests\BaseTest
 
     public function adventDataProvider()
     {
-        return [
-            [2018, 12, 02],
-            [2019, 12, 01],
-            [2020, 11, 29],
-            [2025, 11, 30],
-        ];
+        return array(
+            array(2018, 12, 02),
+            array(2019, 12, 01),
+            array(2020, 11, 29),
+            array(2025, 11, 30)
+        );
     }
 }

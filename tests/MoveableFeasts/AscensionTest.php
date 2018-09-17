@@ -23,11 +23,11 @@ class AscensionTest extends \Tests\BaseTest
 
     public function ascensionDataProvider()
     {
-        return [
-            [2018, 5, 10],
-            [2019, 5, 30],
-            [2020, 5, 21],
-            [2025, 5, 29],
-        ];
+        return array(
+            array(2018, 5, 10),
+            array(2019, 5, 30),
+            array(2020, 5, 21),
+            array(2025, 5, 29)
+        );
     }
 }

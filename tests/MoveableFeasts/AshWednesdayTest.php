@@ -23,11 +23,11 @@ class AshWednesdayTest extends \Tests\BaseTest
 
     public function dataProvider()
     {
-        return [
-            [2018, 2, 14],
-            [2019, 3, 6],
-            [2020, 2, 26],
-            [2025, 3, 5],
-        ];
+        return array(
+            array(2018, 2, 14),
+            array(2019, 3, 6),
+            array(2020, 2, 26),
+            array(2025, 3, 5)
+        );
     }
 }
